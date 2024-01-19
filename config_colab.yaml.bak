@@ -1,0 +1,15 @@
+clear_output: false
+force_cpu: false
+live_cam_start_active: false
+max_threads: 4
+memory_limit: 8
+output_image_format: jpg
+output_template: '{file}_{time}'
+output_video_codec: libx265
+output_video_format: mp4
+provider: cuda
+selected_theme: Default
+server_name: '0.0.0.0'
+server_port: 0
+server_share: true
+video_quality: 12
