@@ -35,7 +35,7 @@ if platform.system().lower() == 'darwin':
 
 # https://github.com/facefusion/facefusion/blob/master/facefusion
 def detect_fps(target_path : str) -> float:
-    fps = 24.0
+    fps = 16.0
     cap = cv2.VideoCapture(target_path)
     if cap.isOpened():
         fps = cap.get(cv2.CAP_PROP_FPS)
